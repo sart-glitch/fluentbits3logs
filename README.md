@@ -22,4 +22,6 @@ kubectl apply -f install/v1.22
 **2.** After setting up the required kubernetes objects, we can now install the fluentbit(daemonsets) and it's configuration (configmap).
 ```bash
 kubectl apply -f ./fluentbit/
+
+apply these two files: fluentbit-cm-2.yaml, fluentbit-ds-new.yaml
 ```
